@@ -1,0 +1,29 @@
+@media (max-width: 576px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: 5% 5% 80% 10%;
+        grid-template-areas:
+        "brand brand brand brand brand brand brand brand brand" 
+        "global global global global global global tools tools tools"
+        "mid mid mid mid mid mid mid mid mid"
+        "footer footer footer footer footer footer footer footer footer";
+    }
+    .mid-grid {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: 10% 30% 50% 8%;
+        grid-template-areas:
+        "elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2"
+        "art4 art4 art4 art4 art4 art4 art4 art4 art4"
+        "pic pic pic pic pic pic pic pic pic"
+        "art5 art5 art5 art5 art5 art5 art5 art5 art5"
+        "footer footer footer footer footer footer footer footer footer" ;
+    }
+    .sidebar__content {
+        display: none;
+    }
+    .hero__elements1 {
+        display: none;
+    }
+}

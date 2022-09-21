@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 10% 80% 10%;
+        grid-template-areas:
+        "brand brand brand global global global global global global tools tools tools"
+        "mid mid mid mid mid mid mid mid mid mid mid mid"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
+    .mid-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 10% 10% 50% 12% 15% 5%;
+        grid-template-areas:
+        "elem1 elem1 elem1 elem1 elem1 elem1 elem1 elem1 elem1 elem1 elem1 elem1"
+        "elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2 elem2"
+        "art4 art4 art4 art4 art4 art4 art4 art4 art4 pic pic pic"
+        "art5 art5 art5 art5 art5 art5 art5 art5 art5 art5 art5 art5"
+        "con con con con con con con con con con con con"
+        "footer footer footer footer footer footer footer footer footer footer footer footer" ;
+    }
+}
